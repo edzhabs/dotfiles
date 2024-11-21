@@ -1,0 +1,108 @@
+# Ignore sensitive files
+.env
+.gitconfig          # Contains private Git info like email and name
+.ssh/               # SSH keys and configurations
+.gnupg/             # GPG keys and configurations
+.aws/               # AWS credentials and config
+
+# Ignore OS-specific files
+.DS_Store           # macOS metadata files
+Thumbs.db           # Windows thumbnail cache
+
+# Ignore temporary files
+*.swp               # Swap files created by Vim/Neovim
+*.swo
+*.tmp
+*.bak               # Backup files
+*.old               # Old version files
+
+# Ignore logs and cache
+*.log               # Log files
+.cache/             # Generic cache directory
+.local/share/nvim/swap/  # Neovim swap files
+.local/share/nvim/undo/  # Neovim undo files
+.local/share/nvim/backup/  # Neovim backups
+
+# Ignore build artifacts
+*.o                 # Object files
+*.so                # Shared object files
+*.dll               # Dynamic-link libraries
+
+# location files
+.config/dunst/
+.config/xsettingsd/
+.config/wlogout/
+.config/rofi/
+.config/qt6ct/
+.config/ohmyposh/
+.config/nwg-dock-hyprland/
+.config/gtk-4.0/
+.config/gtk-3.0/
+.config/bashrc/
+.config/ags/
+.config/waypaper/
+.config/ml4w/
+.config/alacritty/
+.config/wal/
+.config/starship.toml
+.config/zshrc/
+.gtkrc-2.0
+.Xresources
+add-git.sh
+
+# specific themes
+.config/hypr/conf/animation.conf
+.config/hypr/conf/animations/
+.config/hypr/conf/autostart.conf
+.config/hypr/conf/cursor.conf
+.config/hypr/conf/custom.conf
+.config/hypr/conf/decoration.conf
+.config/hypr/conf/decorations/
+.config/hypr/conf/environment.conf
+.config/hypr/conf/environments/
+.config/hypr/conf/keybinding.conf
+.config/hypr/conf/keyboard.conf
+.config/hypr/conf/layout.conf
+.config/hypr/conf/layouts/
+.config/hypr/conf/misc.conf
+.config/hypr/conf/monitor.conf
+.config/hypr/conf/monitors/
+.config/hypr/conf/restorevariations.sh
+.config/hypr/conf/window.conf
+.config/hypr/conf/windowrule.conf
+.config/hypr/conf/windows/
+.config/hypr/effects/
+.config/hypr/hypridle.conf
+.config/hypr/hyprland.conf
+.config/hypr/hyprlock.conf
+.config/hypr/hyprpaper.conf
+.config/hypr/scripts/
+.config/hypr/shaders/
+.config/waybar/launch.sh
+.config/waybar/themes/assets/ai-icon-20.png
+.config/waybar/themes/assets/ai-icon.png
+.config/waybar/themes/assets/hyprland-icon-20.png
+.config/waybar/themes/assets/hyprland-icon.png
+.config/waybar/themes/assets/ml4w-icon-20.png
+.config/waybar/themes/assets/ml4w-icon-black.svg
+.config/waybar/themes/assets/ml4w-icon-dark.png
+.config/waybar/themes/assets/ml4w-icon-white.svg
+.config/waybar/themes/assets/ml4w-icon.png
+.config/waybar/themes/assets/ml4w-icon.svg
+.config/waybar/themes/assets/openai-black.svg
+.config/waybar/themes/assets/openai-white.svg
+.config/waybar/themes/assets/openai.svg
+.config/waybar/themes/default/
+.config/waybar/themes/ml4w-blur-bottom/
+.config/waybar/themes/ml4w-blur/
+.config/waybar/themes/ml4w-bottom/
+.config/waybar/themes/ml4w-minimal/
+.config/waybar/themes/ml4w/black/
+.config/waybar/themes/ml4w/dark/
+.config/waybar/themes/ml4w/light/
+.config/waybar/themes/ml4w/mixed/
+.config/waybar/themes/ml4w/white/
+.config/waybar/themes/starter/
+.config/waybar/themeswitcher.sh
+.config/waybar/toggle.sh
+
