@@ -1,6 +1,10 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.ai.tabnine",
+    "lazyvim.plugins.extras.coding.mini-comment",
+    "lazyvim.plugins.extras.editor.inc-rename",
+    "lazyvim.plugins.extras.editor.mini-move",
+    "lazyvim.plugins.extras.ui.dashboard-nvim"
   ],
   "news": {
     "NEWS.md": "7429",

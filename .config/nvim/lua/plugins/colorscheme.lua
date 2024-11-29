@@ -6,8 +6,13 @@ return {
     priority = 1000,
     opts = function()
       return {
-        transparent = true,
+        transparent = false,
+        styles = {
+          floats = "transparent",
+          sidebars = "transparent",
+        },
       }
     end,
   },
+  -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 }

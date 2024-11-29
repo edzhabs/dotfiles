@@ -89,9 +89,13 @@ return {
 
   {
     "nvim-cmp",
-    dependencies = { "hrsh7th/cmp-emoji" },
+    dependencies = {
+      "hrsh7th/cmp-emoji",
+      "tzachar/cmp-tabnine", -- Add Tabnine as a dependency
+    },
     opts = function(_, opts)
       table.insert(opts.sources, { name = "emoji" })
+      table.insert(opts.sources, { name = "cmp_tabnine" }) -- Add Tabnine here
     end,
   },
 }

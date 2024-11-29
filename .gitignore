@@ -44,7 +44,6 @@ Thumbs.db           # Windows thumbnail cache
 .config/ml4w/
 .config/alacritty/
 .config/wal/
-.config/starship.toml
 .config/zshrc/
 .gtkrc-2.0
 .Xresources
