@@ -34,7 +34,6 @@ Thumbs.db           # Windows thumbnail cache
 .config/wlogout/
 .config/rofi/
 .config/qt6ct/
-.config/ohmyposh/
 .config/nwg-dock-hyprland/
 .config/gtk-4.0/
 .config/gtk-3.0/
@@ -44,7 +43,6 @@ Thumbs.db           # Windows thumbnail cache
 .config/ml4w/
 .config/alacritty/
 .config/wal/
-.config/zshrc/
 .gtkrc-2.0
 .Xresources
 add-git.sh
