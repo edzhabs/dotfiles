@@ -1,0 +1,99 @@
+{
+  "[go]": {
+    "editor.formatOnSaveMode": "file"
+  },
+  "editor.fontFamily": "'Monaspace Neon', BlexMono Nerd Font, 'Monaspace Neon', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "icons",
+  "vim.leader": "<Space>",
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    // "<C-d>": false,
+    "<C-s>": false,
+    "<C-v>": false,
+    // "<C-c>": false,
+    "<C-z>": false,
+    "<C-w>": false,
+    "<C-p>": false,
+    "<C-f>": false,
+    "<C-a>": false,
+    "<C-x>": false,
+    "<C-y>": false,
+    "y": true
+  },
+  // "vim.useCtrlKeys": false, // Optional: Set this to false to avoid conflicts with Ctrl key commands
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    // move window split
+    {
+      "before": ["<Leader>", "h"],
+      "after": ["<C-w>", "h"]
+    },
+    // {
+    //   "before": ["<Leader>", "j"],
+    //   "after": ["<C-w>", "j"]
+    // },
+    {
+      "before": ["<Leader>", "k"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<Leader>", "l"],
+      "after": ["<C-w>", "l"]
+    },
+    // TAB HANDLING
+    {
+      "before": ["<Leader>", "n"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "."],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", ","],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    }
+  ],
+  "editor.cursorBlinking": "solid",
+  "terminal.integrated.fontFamily": "MonaspiceRn Nerd Font Mono",
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "One Candy",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "go": false,
+    "sql": true,
+    "yaml": true,
+    "dockerfile": true,
+    "typescript": false,
+    "typescriptreact": false
+  },
+  "cSpell.userWords": ["edzhabs"],
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
